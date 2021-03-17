@@ -13,6 +13,10 @@
 		708313D026023CDF002FCFA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708313BB26023CDF002FCFA4 /* ContentView.swift */; };
 		708313D126023CDF002FCFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708313BC26023CDF002FCFA4 /* Assets.xcassets */; };
 		708313D226023CDF002FCFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708313BC26023CDF002FCFA4 /* Assets.xcassets */; };
+		708313DE2602499B002FCFA4 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708313DD2602499B002FCFA4 /* CourseRow.swift */; };
+		708313DF2602499B002FCFA4 /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708313DD2602499B002FCFA4 /* CourseRow.swift */; };
+		708313E326024DC9002FCFA4 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708313E226024DC9002FCFA4 /* CoursesView.swift */; };
+		708313E426024DC9002FCFA4 /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708313E226024DC9002FCFA4 /* CoursesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		708313C926023CDF002FCFA4 /* UniversalSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		708313CB26023CDF002FCFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		708313CC26023CDF002FCFA4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		708313DD2602499B002FCFA4 /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
+		708313E226024DC9002FCFA4 /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 			children = (
 				708313BA26023CDF002FCFA4 /* UniversalSwiftUIApp.swift */,
 				708313BB26023CDF002FCFA4 /* ContentView.swift */,
+				708313DD2602499B002FCFA4 /* CourseRow.swift */,
+				708313E226024DC9002FCFA4 /* CoursesView.swift */,
 				708313BC26023CDF002FCFA4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				708313CF26023CDF002FCFA4 /* ContentView.swift in Sources */,
+				708313DE2602499B002FCFA4 /* CourseRow.swift in Sources */,
 				708313CD26023CDF002FCFA4 /* UniversalSwiftUIApp.swift in Sources */,
+				708313E326024DC9002FCFA4 /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				708313D026023CDF002FCFA4 /* ContentView.swift in Sources */,
+				708313DF2602499B002FCFA4 /* CourseRow.swift in Sources */,
 				708313CE26023CDF002FCFA4 /* UniversalSwiftUIApp.swift in Sources */,
+				708313E426024DC9002FCFA4 /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
